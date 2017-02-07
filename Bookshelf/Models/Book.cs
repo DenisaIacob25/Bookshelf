@@ -11,6 +11,7 @@ namespace Bookshelf.Models
     {
         [Key]//data annotation used to further describe how something should work - only one key per record
         public int ID { get; set; }
+        //the rest of the 
         public string Title { get; set; }
         public DateTime PublishedDate { get; set; }
         public string Description { get; set; }
